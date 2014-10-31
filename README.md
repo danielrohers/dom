@@ -2,13 +2,16 @@
 
 Plugin for DOM manipulation
 
-#### color.increaseBrightness()
+#### dom.create(name, properties)
 ```js
 dom.create('input', {
     'name': 'name'
   });
 // <input name="name">
+```
 
+#### dom.create(name, properties, assignmentProperties)
+```js
 dom.create('button', {
     'type': 'submit',
   }, {
